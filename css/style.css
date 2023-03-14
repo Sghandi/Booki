@@ -120,6 +120,8 @@ body {
 nav a {
     text-decoration: none;
     padding-top: 25px;
+}
+.navigation a {
     margin:0 10px;
 }
 
@@ -137,9 +139,55 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 25px;
+    padding-bottom: 45px;
     padding-top: 16px;
   }
+
+#paragraph {
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+
+/* searsh bar creation  */
+.searsh-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.fa-location-dot {
+    color: black;
+}
+
+label {
+    border:solid 1px #F2F2F2;
+    border-right: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #F2F2F2;
+    padding: 10px;
+    font-size: 14px;
+}
+
+input {
+    border: solid 1px #F2F2F2;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    color: black;
+    font-weight: 700;
+}
+.searsh-bar button {
+    border: solid 1px #0065FC;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #0065FC;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+}
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
