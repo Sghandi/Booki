@@ -116,8 +116,30 @@ body {
     margin-bottom: 5px;
 }
 
+/* Header */
+nav a {
+    text-decoration: none;
+    padding-top: 25px;
+    margin:0 10px;
+}
 
-
+a:visited {
+    color: black;
+}
+a:hover {
+    color: #0065FC;
+}
+a:focus {
+    border-top:solid #0065FC;
+    color:#0065FC;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    padding-top: 16px;
+  }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
