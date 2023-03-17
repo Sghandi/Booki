@@ -22,11 +22,11 @@
         <header> 
             <nav id="navbar">
                 <div>
-                    <a href="index.html"><img src="images\logo\Booki.png" alt="logo Booki" height="19px"></a>
+                    <a href="index.html"><img src="images\logo\Booki.png" alt="logo Booki" height="20px"></a>
                 </div>
                 <div class="navigation">
-                    <a href="#">Hébergements</a>
-                    <a href="#">Activités</a>
+                    <a href="#hebergements_anchor">Hébergements</a>
+                    <a href="#activities_anchor">Activités</a>
                 </div>
             </nav>
         </header>
@@ -34,11 +34,13 @@
             <h1 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h1>
             <p id="paragraph">En plein centre-ville ou en pleine nature</p>
             <!-- form creation  -->
-            <div class="searsh-bar">
-                <label for="site-search"><i class="fa-solid fa-location-dot"></i></label>
-                <input type="search" id="site-search" name="q" placeholder="Marseille, France">
-                <button>Rechercher <i class="fa-solid fa-magnifying-glass"></i></button>
-            </div>
+            <form>
+                <div class="searsh-bar">
+                    <label for="site-search"><i class="fa-solid fa-location-dot"></i></label>
+                    <input type="search" id="site-search" name="q" placeholder="Marseille, France">
+                    <button>Rechercher <i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </form>
             <div class="section-filters">
                 <h3>Filtres</h3>
                 <button><i class="fa-solid fa-money-bill-wave"></i> Économique</button>
@@ -50,7 +52,7 @@
                 <p><i class="fa-solid fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section class="hebergements" id="hebergements_anchor">
                     <div>
                         <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>
@@ -223,7 +225,7 @@
                     </div>
                 </section>
             </div>
-            <section class="activities">
+            <section class="activities" id="activities_anchor">
                 <div>
                     <h2>Activités à Marseille</h2>
                 </div>
@@ -264,7 +266,26 @@
                 </div>
             </section>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="footer_section">
+                <div class="footer_text">
+                    <a href="#"><h3>A propos</h3></a>
+                    <a href="#"><p>Fonctionnement du site</p></a>
+                    <a href="#"><p>Conditions générales</p></a>
+                    <a href="#"><p>Données et confidentialité</p></a>
+                </div>
+                <div class="footer_text">
+                    <a href="#"><h3>Nos hébérgements</h3></a>
+                    <a href="#"><p>Charte qualité</p></a>
+                    <a href="#"><p>Proposer votre hôtel</p></a>
+                </div>
+                <div class="footer_text">
+                    <a href="#"><h3>Assistance</h3></a>
+                    <a href="#"><p>Centre d'aide</p></a>
+                    <a href="#"><p>Nous contacter</p></a>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 
